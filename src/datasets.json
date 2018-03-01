@@ -5,7 +5,7 @@
         "file_mask": "africa_child_mortality_YYYY.tif"
     },
     "gdp_grid": {
-        "data_base": "/sciclone/aiddata10/REU/geo/data/rasters/external/global/GDP_grid/GDP_grid_flt.tif",
+        "data_base": "/sciclone/aiddata10/REU/geo/data/rasters/GDP_grid/GDP_grid_flt.tif",
         "data_name": "gdp_grid",
         "file_mask": "None"
     },
@@ -40,22 +40,22 @@
         "file_mask": "None"
     },
     "gpw_v3_density": {
-        "data_base": "/sciclone/aiddata10/REU/data/rasters/external/global/gpw/gpw_v3/density",
+        "data_base": "/sciclone/aiddata10/REU/geo/data/rasters/gpw/gpw_v3/density",
         "data_name": "gpw_v3_density",
         "file_mask": "gldsxxag_YYYY.asc"
     },
     "gpw_v3_count": {
-        "data_base": "/sciclone/aiddata10/REU/data/rasters/external/global/gpw/gpw_v3/count",
+        "data_base": "/sciclone/aiddata10/REU/geo/data/rasters/gpw/gpw_v3/count",
         "data_name": "gpw_v3_count",
         "file_mask": "glpxxag_YYYY.asc"
     },
     "gpw_v4_density": {
-        "data_base": "/sciclone/aiddata10/REU/data/rasters/external/global/gpw/gpw_v4/density",
+        "data_base": "/sciclone/aiddata10/REU/geo/data/rasters/gpw/gpw_v4/density",
         "data_name": "gpw_v4_density",
         "file_mask": "gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals_YYYY.tif"
     },
     "gpw_v4_count": {
-        "data_base": "/sciclone/aiddata10/REU/data/rasters/external/global/gpw/gpw_v4/count",
+        "data_base": "/sciclone/aiddata10/REU/geo/data/rasters/gpw/gpw_v4/count",
         "data_name": "gpw_v4_count",
         "file_mask": "gpw-v4-population-count-adjusted-to-2015-unwpp-country-totals_YYYY.tif"
     },
@@ -295,6 +295,25 @@
           "data_base": "/sciclone/aiddata10/REU/geo/data/rasters/external/global/ambient_air_pollution_2013/o3",
           "data_name": "air_pollution_o3",
           "file_mask": "o3_YYYY.tif"
+     },
+     "esa_landcover_v207":{
+          "data_base": "/sciclone/aiddata10/REU/geo/data/rasters/esa_landcover_v207",
+          "data_name": "esa_landcover",
+          "file_mask": "esa_lc_YYYY.tif",
+          "categories": {
+                "no_data": 0,
+                "rainfed_cropland": 10,
+                "irrigated_cropland": 20,
+                "mosaic_cropland": 30,
+                "forest": 50,
+                "grassland": 110,
+                "shrubland": 120,
+                "sparse_vegetation": 140,
+                "wetland": 180,
+                "urban": 190,
+                "bare_areas": 200,
+                "water_bodies": 210,
+                "snow_ice": 220
+          }
      }
-
 }
